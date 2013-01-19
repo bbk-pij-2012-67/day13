@@ -20,25 +20,12 @@ public class LinkedListRunner{
 		ListIterator<String> itr; 
 		
 		for (itr = list.listIterator(); itr.hasNext();){
-			
 			System.out.println(itr.next());
-			
 		}
-		System.out.print("\n");
 		for (; itr.hasPrevious();){
-			String item = itr.previous();
-			System.out.println(item);
-			if(item.startsWith("a") || item.startsWith("e") || 
-				item.startsWith("i") || item.startsWith("o")
-			|| item.startsWith("u")){
-				itr.remove();
-			}
+			System.out.println(itr.previous());
 		}
-		System.out.print("\n");
-		for (; itr.hasNext();){
-			String item = itr.next();
-			System.out.println(item);
-		}
+		
 	}
 
 }

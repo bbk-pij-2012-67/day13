@@ -1,5 +1,6 @@
 package exercises;
 import java.util.TreeSet;
+
 public class PersonRunner{
 	public static void main(String[] args) {
 		TreeSet<Person> mySet = new TreeSet<Person>();
@@ -8,6 +9,7 @@ public class PersonRunner{
 		mySet.add(new Person("Bill", "Akins"));
 		mySet.add(new Person("Julie", "Wilkins"));
 		mySet.add(new Person("James", "Langdon"));
+		mySet.add(new Person("Edmund", "Langdon"));
 		for (Person p : mySet) {
 			System.out.println(p);
 		}

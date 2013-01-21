@@ -1,6 +1,6 @@
 package exercises;
 import java.util.TreeSet;
-public class PersonRunner {
+public class PersonRunner{
 	public static void main(String[] args) {
 		TreeSet<Person> mySet = new TreeSet<Person>();
 		mySet.add(new Person("Sally", "Brown"));
